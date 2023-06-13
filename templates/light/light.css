@@ -111,9 +111,6 @@ a {
   padding-bottom: 20px;
   background-color: #ffffff;
 }
-.cargo {
-  margin-bottom:20px;
-}
 
 .footer__main {
   /* NB: This prop fucks up the width on OS X, needs to be *JUST* attribute. */
@@ -122,14 +119,13 @@ a {
 
 .footer__main__signature {
   font-size: 14px;
-  padding-bottom: 10px;
   color: #888;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
 
 .footer__main__col1 {
-  width: 70%;
+  width: 50%;
   margin-bottom: 30px;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
@@ -163,9 +159,9 @@ a {
 
 .footer__main__col2__td__img {
   border: 0;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-left: 6px;
-  width: 100%;
-  min-height: 150px;
+  padding-top: 6px;
+  padding-left: 10px;
+  max-width: 100%;
+  max-height: 138px;
+  height: auto;
 }
