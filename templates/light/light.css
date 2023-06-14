@@ -3,6 +3,8 @@
  * 1. Common styles for general table things.
  * =====================================
  */
+
+ 
 img {
   max-width: 100%;
 }
@@ -19,6 +21,15 @@ tr {
   line-height: 20px;
 }
 
+.cargo {
+  padding-bottom: 30px;
+}
+
+.footer__main__signature  img  {
+  zoom: 70%;
+}
+
+
 .rbcc {
   /*
    * rbcc -> reset - border - cellspacing - cellpading
@@ -32,12 +43,6 @@ tr {
 
 .background {
   width: 100%;
-}
-
-.main {
-  width: 100%;
-  background-color: #ffffff;
-  padding-top: 15px;
 }
 
 .sp {
@@ -100,7 +105,7 @@ a {
   padding: 20px 30px 0px 30px;
   color: #f5f5f5;
   border-top: 8px solid #585858;
-  border-radius: 35px 00px 30px 35px;
+  border-radius: 35px 00px 80px 35px;
 }
 
 .footer a {
@@ -114,7 +119,7 @@ a {
 
 .footer__main {
   /* NB: This prop fucks up the width on OS X, needs to be *JUST* attribute. */
-  width: 100%;
+  width: 300px;
 }
 
 .footer__main__signature {
@@ -125,7 +130,7 @@ a {
 }
 
 .footer__main__col1 {
-  width: 50%;
+  width: 70%;
   margin-bottom: 30px;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
@@ -162,6 +167,6 @@ a {
   padding-top: 6px;
   padding-left: 10px;
   max-width: 100%;
-  max-height: 138px;
+  max-height: 60px;
   height: auto;
 }
