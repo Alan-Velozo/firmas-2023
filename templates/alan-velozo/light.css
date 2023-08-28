@@ -3,6 +3,8 @@
  * 1. Common styles for general table things.
  * =====================================
  */
+
+ 
 img {
   max-width: 100%;
 }
@@ -19,6 +21,15 @@ tr {
   line-height: 20px;
 }
 
+.cargo {
+  padding-bottom: 30px;
+}
+
+.footer__main__signature  img  {
+  zoom: 70%;
+}
+
+
 .rbcc {
   /*
    * rbcc -> reset - border - cellspacing - cellpading
@@ -32,12 +43,6 @@ tr {
 
 .background {
   width: 100%;
-}
-
-.main {
-  width: 100%;
-  background-color: #ffffff;
-  padding-top: 15px;
 }
 
 .sp {
@@ -57,6 +62,7 @@ tr {
 }
 
 .gray-hr hr {
+
   border-bottom: 1px solid #e4e4e4;
   border-top: none;
   margin-bottom: 20px;
@@ -96,6 +102,7 @@ a {
  * ================
  */
 .footer {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   background: #21212e;
   padding: 20px 30px 0px 30px;
   color: #f5f5f5;
@@ -114,7 +121,7 @@ a {
 
 .footer__main {
   /* NB: This prop fucks up the width on OS X, needs to be *JUST* attribute. */
-  width: 100%;
+  width: 300px;
 }
 
 .footer__main__signature {
@@ -132,8 +139,8 @@ a {
 }
 
 .footer__main__col1__td {
-  font-size: 14px;
-  color: #888;
+  font-size: 16px;
+  color: #ffffff;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
@@ -162,6 +169,6 @@ a {
   padding-top: 6px;
   padding-left: 10px;
   max-width: 100%;
-  max-height: 38px;
+  max-height: 60px;
   height: auto;
 }
